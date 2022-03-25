@@ -9,9 +9,6 @@
     justify-content: center;
     /* display: flex; */
     padding: 90px 0 90px 0;
-    background-image: url("/src/Images/gatestone background.png"); 
-    background-repeat: no-repeat;
-    background-size: cover;
     
   }
   @media (max-width: 769px) {
@@ -31,9 +28,9 @@
     }
   }
   .account__container {
-    display: block;
-    margin: 0 auto;
-    background: white;
+    display: inline-block;
+    margin: 48px;
+    background: silver;
     border-radius: 1em;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     padding: 4em;

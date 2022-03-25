@@ -5,13 +5,14 @@
     justify-content: center;
     align-items: center;
     border: 1px dashed #cbd5e0;
-    background-color: #edf2f7;
+    background-color: antiquewhite;
     width: 380px;
     height: 230px;
     margin-top: 147px;
     margin-right: 179px;
     
 }
+
 .file-card .file-inputs {
     position: relative;
     margin-bottom: 1.5em;
@@ -67,7 +68,7 @@
 }
 .info {
     font-size: 0.8rem;
-    padding: 209px;
-    margin-left: -143px;
+    padding: 64px;
+    margin-left: -3px;
 
 }

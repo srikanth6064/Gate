@@ -1,15 +1,16 @@
-
+import axios from "axios";
 // get all no.of clients
-
-export const getAllclients = () => {
-    const url = `https://us-central1-gatestone-yyte.cloudfunctions.net/campaignAnalytics`;
-    let data={
-
-        "type":"totalClients"
-    }
-
-    let data1={method:'POST'}
-    
-    return fetch(url,data1).then((response)=>response.json())
-    .catch((error)=>console.log(error));
-};
+const API_PATH =
+  "https://us-central1-gatestone-yyte.cloudfunctions.net/campaignAnalytics";
+export function getCampaignAnalytics(data) {
+  return new Promise((resolve, reject) => {
+    axios
+      .post(API_PATH, data)
+      .then((response) => {
+        return resolve(response);
+      })
+      .catch((err) => {
+        return reject(err);
+      });
+  });
+}

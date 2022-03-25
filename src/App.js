@@ -11,7 +11,6 @@ import Marketing from './components/pages/Marketing';
 import Consulting from './components/pages/Consulting';
 import Login from './components/pages/Login';
 import Forgot from './components/pages/Forgot';
-import Barchart from './components/pages/BarChart';
 
 function App() {
   return (
